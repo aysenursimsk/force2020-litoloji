@@ -1,0 +1,20 @@
+# veri (python -m src.veri ile iner)
+data/
+*.zip
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# notebook / editör
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+# model dosyaları
+*.keras
+*.h5
+modeller_kayit/
