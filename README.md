@@ -16,7 +16,7 @@ yaklaşımlarını karşılaştırıyoruz.
 ## Kurulum (yerel)
 
 ```bash
-git clone https://github.com/KULLANICI_ADI/force2020-litoloji.git
+git clone https://github.com/aysenursimsk/force2020-litoloji.git
 cd force2020-litoloji
 
 python -m venv .venv
@@ -43,7 +43,7 @@ adıyla ekleyin ve `REPO_URL`'yi şöyle kurun:
 
 ```python
 from google.colab import userdata
-REPO_URL = f"https://{userdata.get('GITHUB_TOKEN')}@github.com/KULLANICI_ADI/force2020-litoloji.git"
+REPO_URL = f"https://{userdata.get('GITHUB_TOKEN')}@github.com/aysenursimsk/force2020-litoloji.git"
 ```
 
 Bu ayarla Colab'dan doğrudan commit/push da yapılabilir:
